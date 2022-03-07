@@ -1,0 +1,10 @@
+.BoardListContainer {
+    width: 100%;
+    max-width: 300px;
+    background-color: #eee; 
+    color: black;
+    border-radius: 3px; 
+    margin: 8px;
+    padding: 8px;
+}
+
