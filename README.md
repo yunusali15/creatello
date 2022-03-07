@@ -1,2 +1,2 @@
-# cretello
+# creatello
 Trello Clone
