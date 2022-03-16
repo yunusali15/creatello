@@ -5,7 +5,7 @@ import CardContent from "@material-ui/core/CardContent";
 
 export const BoardCard = ({text}) => {
   return (
-      <Card style={{width:"100%",maxWidth:"272px", margin:"8px"}}>
+      <Card style={{ width:"100%",maxWidth:"284px", margin:"6px"}}>
           <CardContent>
               <Typography>{text}</Typography>
           </CardContent>

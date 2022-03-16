@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { BoardCard } from './BoardCard';
 import { BoardList } from './BoardList';
 import './App.css'
+import AddButton from './AddButton';
 
 function App(props) {
 
@@ -13,8 +14,9 @@ function App(props) {
       <h2>Surer Board</h2>
       <div className='BoardContainer'>
         {lists.map(list =>
-          <BoardList title={list.title} cards={list.cards} />
+          <BoardList listID ={list.id} key={list.id} title={list.title} cards={list.cards} />
         )}
+        <AddButton list />
       </div>
     </div>
   );

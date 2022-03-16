@@ -1,13 +1,15 @@
 .BoardContainer{ 
     display:flex;
     flex-direction: row;
-    
+}
+
+.App {
+    margin: 8px;
 }
 
 @media screen and (max-width: 1200px) {
     .BoardContainer{ 
         display: block;
-        /* flex-direction: column; */
         width: 50%;
         margin: auto;
         justify-content: center;
