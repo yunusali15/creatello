@@ -5,6 +5,25 @@
 
 .App {
     margin: 8px;
+    color: rgb(238, 192, 64);
+}
+
+.appBar {
+    display: flex;
+    height: 30px;
+    color:white;
+    font-size: larger;
+    margin: 20px;
+    letter-spacing: 1px;
+}
+
+.mainApp {
+    display: flex;
+    flex-direction: row;
+}
+
+.tabsPanel {
+    color: white;
 }
 
 @media screen and (max-width: 1200px) {
